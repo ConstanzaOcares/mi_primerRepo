@@ -1,21 +1,145 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>practica de git</title>
+	<meta charset="utf-8">
+	<title>Inicio</title>
+	<!--Enlace de CSS-->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!--Enlace de tipografias-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500;700&display=swap" rel="stylesheet">
+	<!--tipografia geek game-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
 </head>
-<body>}
-    <h1>Practico git 1</h1>
-
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi explicabo reiciendis 
-        facere provident veniam commodi unde officia doloribus 
-        aliquam nesciunt soluta animi facilis, ad nemo quas eum libero quaerat. Rerum.</p>
-    
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi explicabo reiciendis 
-            facere provident veniam commodi unde officia doloribus 
-            aliquam nesciunt soluta animi facilis, ad nemo quas eum libero quaerat. Rerum.</p>
-    
+<body>
+	<header>
+		<div class="firstBox">
+	<div class="imgTex">
+			<img id="truck" src="iconos/truck.png">
+			<p class="first">Envios a todo Chile</p>
+	</div>	
+			<ul class="nav1">
+				<li><a class="menu1" href="html/inicioSesion.html">Iniciar Sesión / Registrarse</a></li>
+				<li><a class="menu1" href="html/contacto.html">Contacto</a></li>
+				<li><a class="menu1" href="html/ubicacion.html">Ubicación y Envíos</a></li>
+				<li><a class="menu1" href="html/ayuda.html">Necesitas Ayuda?</a></li>
+			</ul>
+		</div>
+		<div id="titulo">
+			<img id="logoGeek" src="iconos/logoGeek.png">
+			<div class="barraBusq">
+				<input class="Busq" type="search" name="busqueda" placeholder="Búsqueda...">
+				<input class="btn" type="submit" value="Buscar">
+			</div>
+		</div>
+		<!--Agregar menu-->
+		<nav class="menu2">
+			<ul>
+				<li><a class="nav2" href="index.html">Inicio</a></li>
+				<li><a class="nav2" href="html/jugMesa.html">Juegos de Mesa</a></li>
+				<li><a class="nav2" href="html/jugMin.html">Juegos de Miniaturas</a></li>
+				<li><a class="nav2" href="html/tcg.html">TCG</a></li>
+				<li><a class="nav2" href="html/pinturas.html">Herramientas y Pinturas</a></li>
+				<li><a class="nav2" href="html/feldher.html">Feldher</a></li>
+				<li><a class="nav2" href="html/ofertas.html">¡Ofertas!</a></li>
+				<li><a class="nav2" href="html/servicios.html">Nuestros Servicios</a></li>	
+			</ul>
+		</nav>
+	</header>
+	<!--INICIO MAIN-->
+	<Main id="index">
+		<p class="title">Nuevos Productos</p>
+		<div> <!--NUEVOS PRODUCTOS-->
+			<div class="nuevos">
+				<img class="imagen" src="img/nuevo1.png" alt="">
+				<p>Mannfred, Mortarch of night</p>
+				<p>$79.990</p>
+			</div>
+			<div class="nuevos">
+				<img class="imagen"  src="img/nuevo2.png" alt="">
+				<p>Mannfred, Mortarch of night</p>
+				<p>$79.990</p>
+			</div>
+			<div class="nuevos">
+				<img class="imagen" src="img/nuevo3.png" alt="">
+				<p>Mannfred, Mortarch of night</p>
+				<p>$79.990</p>
+			</div>
+			<div class="nuevos">
+				<img class="imagen" src="img/nuevo4.png" alt="">
+				<p>Mannfred, Mortarch of night</p>
+				<p>$79.990</p>
+			</div>
+			<div class="nuevos">
+				<img class="imagen" src="img/nuevo5.png" alt="">
+				<p>Mannfred, Mortarch of night</p>
+				<p>$79.990</p>
+			</div>
+		</div>
+		<p class="title">Catálogos</p>
+		<div id="catalogos"> <!--CATALOGOS-->
+			<img id="warhammer" src="img/cat1.png">
+			<img id="marvel" src="img/marvel.png">
+			<img id="starwars" src="img/starwars.png">
+		</div>
+			<p class="title">Ofertas</p>
+			<div><!--OFERTAS-->
+			<div class="nuevos">
+				<img class="imagen" src="img/nuevo1.png" alt="">
+				<p>Mannfred, Mortarch of night</p>
+				<p>$79.990</p>
+			</div>
+			<div class="nuevos">
+				<img class="imagen"  src="img/nuevo2.png" alt="">
+				<p>Mannfred, Mortarch of night</p>
+				<p>$79.990</p>
+			</div>
+			<div class="nuevos">
+				<img class="imagen" src="img/nuevo3.png" alt="">
+				<p>Mannfred, Mortarch of night</p>
+				<p>$79.990</p>
+			</div>
+			<div class="nuevos">
+				<img class="imagen" src="img/nuevo4.png" alt="">
+				<p>Mannfred, Mortarch of night</p>
+				<p>$79.990</p>
+			</div>
+			<div class="nuevos">
+				<img class="imagen" src="img/nuevo5.png" alt="">
+				<p>Mannfred, Mortarch of night</p>
+				<p>$79.990</p>
+			</div>
+		</div>
+		<br>
+	</Main>
+	<footer>
+		<div class="footer">
+			<form action="">
+				<fieldset class="suscribete">
+					<legend class="footer">Suscribete!</legend>
+					<p>No te pierdas nuestras ofertas y nuevos productos</p>
+					<Label>Ingresa tu nombre aquí:</Label>
+					<input class="text" type="text" name="nombre" placeholder="Nombre">
+					<br>
+					<label>Ingresa tu Correo aquí:</label>
+					<input class="text" type="email" name="email" placeholder="Correo">
+					<br>
+					<input class="btn" type="button" name="enviar" value="Enviar">
+				</fieldset>
+			</form>
+			<div>
+				<p class="final">Síguenos en redes sociales...</p>
+				<img class="rrss" src="iconos/face.png">
+				<img class="rrss" src="iconos/instagram.png">
+				<img class="rrss" src="iconos/whatsapp.png">
+				<p class="final">Métodos de Pago</p>
+				<img src="iconos/metodoPago.png">
+			</div>
+		</div>
+		<p class="final">© 2021 GeekGame. Todos los derechos reservados. Powered by Jumpseller.</p>	
+	</footer>
 </body>
 </html>

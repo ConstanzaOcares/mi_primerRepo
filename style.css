@@ -1,0 +1,309 @@
+/**HEADER**/
+html{
+	font-family: 'Comfortaa', cursive;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+	background-color: #F4F6FF;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	text-decoration: none;
+	color:#0A1931;
+	
+}
+ul{
+	margin:0;
+	padding:1em;
+}
+li{
+	list-style: none;
+	display: inline;
+	margin: 0;
+}
+label{
+	margin: 0;
+}
+
+div.firstBox{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-between;
+	height: 3.2em;
+	width: 100%;
+	background-color: #FFCC61;
+	margin: 0;
+	padding:0;
+}
+a.menu1{
+	color:#121D86;
+	padding: 1em;
+	background-color: #FFCC61;
+	margin: 0;
+}
+a.menu1:hover{
+	background-color: #CC7806;
+	padding: 1em;
+	margin: 0;
+}
+div.imgTex{
+	display: inline-flex;
+}
+p.first{
+	padding-left: 1em;
+	padding-top: 1em;
+}
+img#truck{
+	width: 3.5em;
+	height: 3em;
+	margin-left: 2em;
+}
+img#logoGeek{
+	width: 12em;
+	height: 7em;
+	padding: 1em;
+}
+
+div#titulo{
+	display: flex;
+	flex-direction: row;
+	margin: 0;
+	justify-content: space-around;
+	align-items: center;
+
+}
+div.barraBusq{
+	padding: 2.5em;
+	border-radius: 0.5em;
+	
+}
+input.Busq{
+	width: 25em;
+	height: 2em;
+}
+input.btn{
+	width: 5em;
+	height: 2em;
+}
+nav.menu2{
+	background-color: #185ADB;
+	display: flex;
+	justify-content: space-around;
+}
+a.nav2:hover{
+	background-color: #715199;
+
+}
+a.nav2{
+	padding: 1em;
+	color: #F4F6FF;
+}
+/**LOGIN**/
+main#login{
+	display: flex;
+	flex-direction: row;
+	justify-items: center;
+	justify-content: space-around;
+	height: 40em;
+}
+fieldset.login{
+	display: grid;
+	height: 20em;
+	width: 30em;
+	font-size: 1em;
+	justify-items: center;
+}
+
+input.btn-login{
+	height: 2em;
+	width: 8em;
+	
+}
+div.form-login{
+	margin: 2em;
+	background-color: #6D95D6;
+	height: 20em;
+	padding: 3em;
+	border-radius: 1em;
+}
+
+div.cont-items{
+	display: grid;	
+	justify-items: center;
+	grid-template-columns: repeat(2,6fr);
+}
+div#nom{
+	display: grid;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	grid-column-start: 1;
+	grid-column-end: 2;
+}
+div#ape{
+	display: grid;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	grid-column-start: 2;
+	grid-column-end: 3;
+}
+div#mail{
+	display: grid;
+	grid-row-start: 2;
+	grid-row-end: 3;
+	grid-column-start: 1;
+	grid-column-end: 2;
+}
+div#telef{
+	display: grid;
+	grid-row-start: 2;
+	grid-row-end: 3;
+	grid-column-start: 2;
+	grid-column-end: 3;
+}
+div#pass{
+	display: grid;
+	grid-row-start: 3;
+	grid-row-end: 4;
+	grid-column-start: 1;
+	grid-column-end: 2;
+}
+div#pass-confi{
+	display: grid;
+	grid-row-start: 3;
+	grid-row-end: 4;
+	grid-column-start: 2;
+	grid-column-end: 3;
+}
+#btn-regis{
+	display: grid;
+	grid-row-start: 4;
+	grid-row-end: 5;
+	grid-column-start: 1;
+	grid-column-end: 3;
+}
+.login-input{
+	width: 20em;
+}
+login-content{
+	display: grid;
+	grid-template-rows: repeat(4);
+}
+#parraf-login{
+	grid-row-start: 2;
+	grid-row-end: 3;
+}
+#user{
+
+}
+
+/**MAIN INDEX**/
+/**MAIN INDEX*/
+main{
+    margin: 0;
+    padding: 0;
+}
+main#index{
+    display: grid;
+    justify-items: center;
+    grid-row-gap: 2em;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+p.title{
+    margin: 0.5em;
+    font-size: 2em;
+}
+/**PRODUCTOS NUVOS*/
+div.nuevos{
+    display: inline-grid;
+	margin: 0.5em;
+    justify-items: center;
+	height: 15em;
+	width: 15em;
+	background-color: #6D95D6;
+	padding: 1em;
+	text-align: center;
+	border-radius: 1em;
+}
+div.nuevos:hover{
+	height: 18em;
+	width: 18em;
+}
+img.imagen{
+    height: 12em;
+    width: 12em;
+}
+img.imagen:hover{
+    height: 15em;
+    width: 15em;
+}
+
+/**CATALOGOS*/
+div#catalogos{
+    display: grid;
+    grid-column-gap: 3em ;
+    grid-row-gap: 3em ;
+    align-items: center;
+}
+img#warhammer{
+    grid-row-start:1 ;
+    grid-row-end: 3;
+    height: 27em;
+}
+img#warhammer:hover{
+	height:30em;
+}
+img#marvel{
+    grid-row-start:1 ;
+    grid-row-end: 2;
+    height: 12em;
+}
+#marvel:hover{
+	height: 15em;
+}
+img#starwars{
+    grid-row-start:2 ;
+    grid-row-end: 3;
+    height: 12em;
+}
+#starwars:hover{
+	height: 15em;
+}
+
+
+/**FOOTER**/
+footer{
+	background-color: #185ADB;
+	color: #F4F6FF;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+div.footer{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+p.final{
+	padding: 1em;
+}
+fieldset.suscribete{
+	margin: 2em;
+}
+input{
+	margin: 1em;
+}
+legend{
+	font-size: 2em;
+}
+img.rrss{
+	width: 3em;
+	height: 3em;
+	margin: 1em;
+}

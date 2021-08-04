@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Contacto</title>
+	<!--Enlace de CSS-->
+	<link rel="stylesheet" type="text/css" href="../style.css">
+	<!--Enlace de tipografias-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500;700&display=swap" rel="stylesheet">
+	<!--tipografia geek game-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<div class="firstBox">
+	<div class="imgTex">
+			<img id="truck" src="../iconos/truck.png">
+			<p class="first">Envios a todo Chile</p>
+	</div>	
+			<ul class="nav1">
+				<li><a class="menu1" href="inicioSesion.html">Iniciar Sesión / Registrarse</a></li>
+				<li><a class="menu1" href="contacto.html">Contacto</a></li>
+				<li><a class="menu1" href="ubicacion.html">Ubicación y Envíos</a></li>
+				<li><a class="menu1" href="ayuda.html">Necesitas Ayuda?</a></li>
+			</ul>
+		</div>
+		<div id="titulo">
+			<img id="logoGeek" src="../iconos/logoGeek.png">
+			<div class="barraBusq">
+				<input class="Busq" type="search" name="busqueda" placeholder="Búsqueda...">
+				<input class="btn" type="submit" value="Buscar">
+			</div>
+		</div>
+		<!--Agregar menu-->
+		<nav class="menu2">
+			<ul>
+				<li><a class="nav2" href="../index.html">Inicio</a></li>
+				<li><a class="nav2" href="jugMesa.html">Juegos de Mesa</a></li>
+				<li><a class="nav2" href="jugMin.html">Juegos de Miniaturas</a></li>
+				<li><a class="nav2" href="tcg.html">TCG</a></li>
+				<li><a class="nav2" href="pinturas.html">Herramientas y Pinturas</a></li>
+				<li><a class="nav2" href="feldher.html">Feldher</a></li>
+				<li><a class="nav2" href="ofertas.html">¡Ofertas!</a></li>
+				<li><a class="nav2" href="servicios.html">Nuestros Servicios</a></li>	
+			</ul>
+		</nav>
+	</header>
+	
+	<form>
+		<fieldset>
+			<legend>Contacto</legend>
+			<p>Para mayor infromación o consultas escríbenos por nuetras redes sociales o en el siguiente formulario. </p>
+			<label>Nombre: </label>
+			<input type="text" name="Nombre" placeholder="ingresa tu nombre">
+			<br>
+			<label>Apellido</label>
+			<input type="text" name="Apellido" placeholder="ingresa tu apellido">
+			<br>
+			<label>Correo electronico</label>
+			<input type="email" name="email" placeholder="ingresa tu correo">
+			<br>
+			<input type="checkbox" name="enviarcopia">
+			<label>Deseo una copia del mensaje en mi correo</label>
+			<br>
+			<label>Motivo Mensaje</label>
+			<select name="motivo">
+				<option>--Seleccione una opción--</option>
+				<option>Consulta</option>
+				<option>Reclamo</option>
+				<option>Sugerencias</option>
+			</select>
+			<br>
+			<textarea placeholder="escribe tu mensaje"></textarea>
+			<input type="button" name="Enviar" value="Enviar">
+			<input type="reset" name="limpiar" value="Limpiar">
+		</fieldset>
+	</form>
+
+	<div>
+		<p>Información Contacto</p>
+		<!--agregar icono correo--><p>tienda@geekgame.cl</p>
+		<!--agregar icono telefono--><p>+569 30973183</p>
+		<!--agregar icono ubicacion--><p>Providencia 1336, local 43, Providencia., Santiago, Metropolitana, Chile</p>
+	</div>
+
+	<div>
+		<p>Horario de atención</p>
+		<p>Lunes a Viernes de 11:00 a 20:00 hrs.</p>
+		<p>Sábados de 10:00 a 17:00 hrs.</p>
+		<p>Por pandemia consultar horario especuial por RSS</p> <!--Mejo levantar un popUP-->
+
+	</div>
+	<footer>
+		<div class="footer">
+			<form action="">
+				<fieldset class="suscribete">
+					<legend class="footer">Suscribete!</legend>
+					<p>No te pierdas nuestras ofertas y nuevos productos</p>
+					<Label>Ingresa tu nombre aquí:</Label>
+					<input class="text" type="text" name="nombre" placeholder="Nombre">
+					<br>
+					<label>Ingresa tu Correo aquí:</label>
+					<input class="text" type="email" name="email" placeholder="Correo">
+					<br>
+					<input class="btn" type="button" name="enviar" value="Enviar">
+				</fieldset>
+			</form>
+			<div>
+				<p>Síguenos en redes sociales...</p>
+				<img class="rrss" src="../iconos/face.png">
+				<img class="rrss" src="../iconos/instagram.png">
+				<img class="rrss" src="../iconos/whatsapp.png">
+				
+				<p>Métodos de Pago</p>
+				<img src="../iconos/metodoPago.png">
+			</div>
+		</div>
+		<p class="final">© 2021 GeekGame. Todos los derechos reservados. Powered by Jumpseller.</p>
+		
+	</footer>
+		
+
+</body>
+</html>
